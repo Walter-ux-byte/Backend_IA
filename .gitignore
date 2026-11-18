@@ -1,0 +1,31 @@
+
+# Entorno virtual
+venv/
+.venv/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Evidencias y videos privados
+storage/images/
+storage/videos/
+
+# Modelos de IA pesados
+*.pt
+*.onnx
+
+# Configuración del editor
+.vscode/
+.idea/
